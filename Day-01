@@ -1,65 +1,39 @@
-## Day 1: Introduction to Python, Installation, and Configuration
+Day 1: Introduction to Python, Installation, and Configuration
+Objectives
+Understand the role of Python in DevOps.
+Install Python and set up a development environment.
+Write and execute your first Python program.
+Prerequisites
+Basic Understanding of Programming Concepts: Familiarity with basic programming concepts will be helpful, but not required. If you need a refresher, consider watching the following video:
 
-### Objectives
+Programming Basics - What is Programming? (YouTube)
+Basic Command Line Skills: Knowledge of how to use the command line interface (CLI) is useful for setting up Python. If you're new to the CLI, check out:
 
-- Understand the role of Python in DevOps.
-- Install Python and set up a development environment.
-- Write and execute your first Python program.
+Command Line Basics (YouTube)
+Installation and Setup
+Install Python:
 
-### Prerequisites
+Visit the official Python website to download the latest version of Python.
+Follow the installation instructions for your operating system:
+Windows: Run the installer and make sure to check "Add Python to PATH".
+macOS: Python is pre-installed on macOS. To install a newer version, use Homebrew: brew install python.
+Linux: Use your package manager, e.g., sudo apt-get install python3 for Ubuntu.
+Verify Installation:
 
-1. **Basic Understanding of Programming Concepts**: Familiarity with basic programming concepts will be helpful, but not required. If you need a refresher, consider watching the following video:
-   - [Programming Basics - What is Programming?](https://www.youtube.com/watch?v=QkJk4tX3cIU) (YouTube)
+Open your command line interface and type python --version or python3 --version to confirm Python is installed correctly.
+You should see the installed Python version.
+Set Up a Development Environment:
 
-2. **Basic Command Line Skills**: Knowledge of how to use the command line interface (CLI) is useful for setting up Python. If you're new to the CLI, check out:
-   - [Command Line Basics](https://www.youtube.com/watch?v=6K6t5E3t9fI) (YouTube)
+Install a text editor or Integrated Development Environment (IDE). Some popular choices include:
 
-### Installation and Setup
+VS Code
+PyCharm
+Sublime Text
+Optionally, set up a virtual environment to manage dependencies:
 
-1. **Install Python**:
-   - Visit the [official Python website](https://www.python.org/downloads/) to download the latest version of Python.
-   - Follow the installation instructions for your operating system:
-     - **Windows**: Run the installer and make sure to check "Add Python to PATH".
-     - **macOS**: Python is pre-installed on macOS. To install a newer version, use Homebrew: `brew install python`.
-     - **Linux**: Use your package manager, e.g., `sudo apt-get install python3` for Ubuntu.
+python -m venv myenv
+source myenv/bin/activate  # On Windows use `myenv\Scripts\activate`
 
-2. **Verify Installation**:
-   - Open your command line interface and type `python --version` or `python3 --version` to confirm Python is installed correctly.
-   - You should see the installed Python version.
-
-3. **Set Up a Development Environment**:
-   - Install a text editor or Integrated Development Environment (IDE). Some popular choices include:
-     - [VS Code](https://code.visualstudio.com/)
-     - [PyCharm](https://www.jetbrains.com/pycharm/)
-     - [Sublime Text](https://www.sublimetext.com/)
-
-   - Optionally, set up a virtual environment to manage dependencies:
-     ```bash
-     python -m venv myenv
-     source myenv/bin/activate  # On Windows use `myenv\Scripts\activate`
-     ```
-
-### Write Your First Python Program
-
-1. **Create a Python Script**:
-   - Open your text editor or IDE and create a new file named `hello.py`.
-
-2. **Write the Code**:
-   - Add the following code to `hello.py`:
-     ```python
-     print("Hello, DevOps!")
-     ```
-
-3. **Run the Script**:
-   - Open your command line interface and navigate to the directory containing `hello.py`.
-   - Run the script with:
-     ```bash
-     python hello.py
-     ```
-   - You should see `Hello, DevOps!` printed to the terminal.
-
-### Additional Resources
-
-- **Python Official Documentation**: [Python Docs](https://docs.python.org/3/)
-- **Python for Beginners**: [Python Beginner's Guide](https://www.learnpython.org/)
-
+Additional Resources
+Python Official Documentation: Python Docs
+Python for Beginners: Python Beginner's Guide
